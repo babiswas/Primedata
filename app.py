@@ -6,7 +6,7 @@ from controller import data_service
 
 class Config:
    SECRET_KEY="hello"
-   SQLALCHEMY_DATABASE_URI="postgresql://postgres:36network@localhost:5432/bello"
+   SQLALCHEMY_DATABASE_URI="postgresql://postgres:XXXXX@localhost:5432/bello"
    SQLALCHEMY_TRACK_MODIFICATIONS=False
 
 
